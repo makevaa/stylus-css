@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           orteil.dashnet.org/cookieclicker/
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://orteil.dashnet.org/cookieclicker/") {
+    /* Insert code here... */
+    
+    #topBar {
+		display:none !important;
+		height:0px !important;
+		min-height:0px !important;
+	}
+
+    .onWeb #game {
+        top: 0 !important;
+    }
+
+	.goldenCookie, .seasonPopup {
+		background-color:lime!important;
+		border:5px solid lime!important;
+		width:500px!important;
+		height:500px!important;
+		background-size: cover!important;
+	}
+
+
+
+	/* Prestige level number */
+	.roundedPanel#ascendNumber {
+		xborder:1px solid lime!important;
+		color:#b133ff!important;
+		font-family:consolas,monospace!important;
+		text-shadow: 3px 3px 0px rgba(0,0,0,1)!important;
+		xfont-size:1em!important;
+		xpadding:0px!important;
+	}
+	#cookies {
+		xbackground-color:black!important;
+		xcolor:auto!important;
+		tpadding-bottom:10px!important;
+	}
+	.commentsText > .fortune {
+		border: 5px solid lime!important;
+		padding: 10px!important;
+		background-color:green!important;
+		position:absolute!important;
+		width:100vw!important;
+		height:100vw!important;
+		top:0!important;
+		left:0!important;
+		z-index:99999999!important;
+		opacity:1!important;
+	}
+    
+    #grimoireContent {
+        padding: 0px !important;
+    }
+    
+    .grimoireSpell {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px !important;
+        background-image: none;
+        background-color: #300606;
+        border-color: #f00;
+        border: none;
+        xborder-top: 5px solid;
+        border-bottom: 5px solid;
+    }
+    
+    .grimoireSpell:hover {
+        filter: brightness(1.4) !important;
+        transform: none !important;
+    } 
+    
+    .grimoireSpell.ready {
+        background-color: #1919c4;
+        border-color: #008cff;
+    }
+    
+     .grimoireIcon {
+        xfilter: hue-rotate(100deg) !important;
+    }
+    
+    /* Muted buildings */
+    #buildingsMute {
+        padding-left: 30px !important;
+        z-index: 0 !important;
+    }
+    .tinyProductIcon {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
