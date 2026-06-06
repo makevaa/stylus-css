@@ -1,0 +1,421 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeIframes.sites": "",
+      "exposeIframes.sitesOnly": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": true,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "patchCsp.sites": "",
+      "patchCsp.sitesOnly": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaASS.sites": "",
+      "styleViaASS.sitesOnly": false,
+      "styleViaXhr": true,
+      "styleViaXhr.sites": "",
+      "styleViaXhr.sitesOnly": false,
+      "urlInstaller": true,
+      "windowPosition": {},
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": false,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "#721717",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "hotkey.toggleTab": "",
+      "sync.enabled": "dropbox",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popup.sidePanel": false,
+      "popup.sidePanel.config": -1,
+      "popup.sidePanel.editor": false,
+      "popup.sidePanel.finder": false,
+      "popup.sidePanel.manager": false,
+      "popup.sidePanel.options": true,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1752376925092,
+    "name": "remotedesktop.google.com/access/",
+    "sections": [
+      {
+        "code": "\n*, :after, :before {\n\t\t-webkit-box-sizing: border-box;\n\t\t-moz-box-sizing: border-box;\n\t\tbox-sizing: border-box;\n\t\tpadding:0px;\n\t\tmargin:0px;\n}\n\nbody {\n\t\tbackground:rgba(0,0,0,0.1)!important;\n\t\tcolor:grey!important;\n\t\tcolor:#00c867!important;\n\t\tbox-shadow:inset 0px 0px 10px 10px black;\n\t\tfont-family:Roboto Mono, Consolas,monospace!important;\n}\n\na {\n\tfont-family:Roboto Mono, Consolas,monospace!important;\n}\n\na:hover {\n\txbackground-color:rgba(0,0,0,0.4);\n}\n\ndiv[role*=\"list\"]{\n\t\txborder:1px solid black;\n\t\tborder-color:#262626;\n\t\txborder-radius:0px;\n\t\tfont-family:Roboto Mono,consolas,monospace!important;\n\t\tbackground-color:#008080;\n}\n\ndiv[role*=\"listitem\"] {\n\t xborder:1px solid lime;\n\t font-family:Roboto Mono, consolas,monospace!important;\n\t background-color:#004d4d!important;\n\t background-color:black!important;\n}\n\ndiv[role*=\"listitem\"]:hover {\n\tfilter:brightness(1)!important;\n\tbackground-color:#004d4d!important;\n\tbackground-color:black!important;\n}\n\n/* change list item fonts */\ndiv[jsname*=\"ihllYc\"],\ndiv[jsname*=\"lvwUA\"],\ndiv[jsname*=\"Zi2RZb\"]\n{\n\tfont-family:consolas,monospace!important;\n\txcolor:#00c867;\n\txtext-shadow: 0px 0px 0px rgba(0, 255, 0, 0.5);\n}\n\ndiv[jsname*=\"Zi2RZb\"] {\n\tcolor:grey;\n}\n\n/* remote computer list link */\na[jsname*=\"tFDiAb\"]\n{\n\ttransition: all 0.1s;\n\tborder:2px solid #404040;\n\tborder-radius:5px;\n\tpadding:10px;\n\tbackground-color:#111000;\n\tbox-shadow:5px 5px 5px 0px rgba(0,0,0,0.5);\n\tmargin-bottom:5px;\n\tbackground: repeating-linear-gradient(180deg, #0e0e0e, #0e0e0e 0.3em, #101215 0.3em, #101215 0.6em)!important;\n}\n\na[jsname*=\"tFDiAb\"]:hover {\n\tzbackground-color:#262626!important;\n\txbox-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);\n\txtransform: translateY(5px);\n}\n\n/* online remote device */\na.addsOd {\n\tcolor:blue!important;\n\tcolor:#00c867!important;\n\txcolor: rgba(255, 255, 255, 1)!important;\n\ttext-shadow: 0px 0px 5px rgba(0, 255, 0, 0.8)!important;\n\txcolor:red!important;\n}\t\n\na.addsOd:hover {\n\ttransform: translateX(0px);\n\tfilter:brightness(1.5);\n}\n\n/* offline remote device */\ndiv.UDPk2 {\n\tcolor:#404040!important;\n\ttext-shadow: 0px 0px 0px rgba(0, 255, 0, 0);\n}\n\n/* Device name, in list-item */\ndiv.xnAcjb {\n\tpadding:5px 5px 0px 5px;\n}\n\n/* Device status, in list-item */\ndiv.Zc1FBc {\n\t\tpadding:0px 5px 5px 5px;\n}\n\n/* Device icon, in list-item  */\ndiv.iQpKcd{\n\txborder:1px solid red;\n\txbackground:red;\n\txdisplay:block;\n\txborder-radius:100%;\n\txoverflow:hidden;\n\tmix-blend-mode:  normal;\n\tfilter: brightness(0.8);\n\txopacity:1;\t\n}\n\n/* Left-side navigation bar items */\n#yDmH0d > c-wiz > span > div > div.P1cThe.eqaHQe.pLz8Qd > div:nth-child(1) > div.NPAyAb > div > div > a {\n\tborder-radius:0px!important;\t\n\tcolor:#00c867!important;\n\t\n}\n\n",
+        "urlPrefixes": [
+          "https://remotedesktop.google.com/access/"
+        ]
+      }
+    ],
+    "updateDate": 1752376958249,
+    "_id": "ecdd0864-486e-4bd4-8435-b87916f07e94",
+    "_rev": 1752376958249,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377002405,
+    "name": "orteil.dashnet.org/cookieclicker/",
+    "sections": [
+      {
+        "code": "/* ==UserStyle==\n@name           orteil.dashnet.org/cookieclicker/\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */"
+      },
+      {
+        "code": "/* Insert code here... */\n    \n    #topBar {\n\t\tdisplay:none !important;\n\t\theight:0px !important;\n\t\tmin-height:0px !important;\n\t}\n\n    .onWeb #game {\n        top: 0 !important;\n    }\n\n\t.goldenCookie, .seasonPopup {\n\t\tbackground-color:lime!important;\n\t\tborder:5px solid lime!important;\n\t\twidth:500px!important;\n\t\theight:500px!important;\n\t\tbackground-size: cover!important;\n\t}\n\n\n\n\t/* Prestige level number */\n\t.roundedPanel#ascendNumber {\n\t\txborder:1px solid lime!important;\n\t\tcolor:#b133ff!important;\n\t\tfont-family:consolas,monospace!important;\n\t\ttext-shadow: 3px 3px 0px rgba(0,0,0,1)!important;\n\t\txfont-size:1em!important;\n\t\txpadding:0px!important;\n\t}\n\t#cookies {\n\t\txbackground-color:black!important;\n\t\txcolor:auto!important;\n\t\ttpadding-bottom:10px!important;\n\t}\n\t.commentsText > .fortune {\n\t\tborder: 5px solid lime!important;\n\t\tpadding: 10px!important;\n\t\tbackground-color:green!important;\n\t\tposition:absolute!important;\n\t\twidth:100vw!important;\n\t\theight:100vw!important;\n\t\ttop:0!important;\n\t\tleft:0!important;\n\t\tz-index:99999999!important;\n\t\topacity:1!important;\n\t}\n    \n    #grimoireContent {\n        padding: 0px !important;\n    }\n    \n    .grimoireSpell {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 50px !important;\n        background-image: none;\n        background-color: #300606;\n        border-color: #f00;\n        border: none;\n        xborder-top: 5px solid;\n        border-bottom: 5px solid;\n    }\n    \n    .grimoireSpell:hover {\n        filter: brightness(1.4) !important;\n        transform: none !important;\n    } \n    \n    .grimoireSpell.ready {\n        background-color: #1919c4;\n        border-color: #008cff;\n    }\n    \n     .grimoireIcon {\n        xfilter: hue-rotate(100deg) !important;\n    }\n    \n    /* Muted buildings */\n    #buildingsMute {\n        padding-left: 30px !important;\n        xz-index: 0 !important;\n    }\n    .tinyProductIcon {\n        width: 60px !important;\n        height: 60px !important;\n    }",
+        "urlPrefixes": [
+          "https://orteil.dashnet.org/cookieclicker/"
+        ]
+      }
+    ],
+    "updateDate": 1772157899058,
+    "_id": "45a7e3bb-732a-40b3-b50b-e75154688bc6",
+    "_rev": 1772157899058,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377072860,
+    "name": "www.di.fm/channels/popular",
+    "sections": [
+      {
+        "code": "i.ico.volume {\n\tcolor:#25d97b!important;\n}",
+        "urlPrefixes": [
+          "https://www.di.fm/channels/popular"
+        ]
+      }
+    ],
+    "updateDate": 1752377072860,
+    "_id": "75e103e6-ddd5-4e8e-82d7-e3e57dfa736a",
+    "_rev": 1752377072860,
+    "id": 3
+  },
+  {
+    "enabled": false,
+    "installDate": 1752377188817,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           www.play.idlescape.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://www.play.idlescape.com/\") {\n        /*\n     stone:https://i.imgur.com/pPDxp28.jpeg\n    gran:  https://i.imgur.com/vjJ8ugC.jpeg\n\n    border:https://i.imgur.com/bZoMthZ.png\n    border_simple: https://i.imgur.com/c7Oeu0F.png\n    */\n\n\n    .inventory-settings.idlescape-container :last-child {\n        xborder:1px solid red!important;\n        xborder:none!important;\n        border-image-source:url(\"asd\")!important;\n        border-image-width:100px!important;\n        background-color:green!important:\n        xdisplay:none;\n    }\n\n\n    .idlescape-tooltip.item-tooltip {\n        xbackground-color:rgba(0, 0, 0, 0.8)!important;\n        border:1px solid grey!important;\n        xborder-color:grey!important;\n        xfont-family:consolas, monospace!important;\n    }\n\n    xdiv.play-area-chat-container{\n        background-color:black!important;\n        background:black!important;\n        background-image:none!important;\n        border:1px solid rgba(255,255,255,0.2)!important;\n        font-family:Roboto Mono, consolas,monospace;\n\n    }\n\n    .chat-message {\n        font-size:1.1em;\n        font-family:consolas,monospace!important;\n        color:lime!important;\n    }\n\n    span.chat-message-timestamp {\n        font-family:consolas,monospace;\n            color:lime!important;\n    }\n\n\n    .chat-message-username {\n        color:#00e600!important;\n        color:red!important;\n    }\n\n    span.chat-message-level.chat-message-level-league-1 {\n        color:#b30000;\n        color:red!important;\n    }\n\n\n    /* remove item glow animations */\n    .item.equipment {\n        animation: none !important;\n    }\n\n\n\n}",
+    "usercssData": {
+      "name": "www.play.idlescape.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "www.play.idlescape.com",
+    "updateDate": 1757025728120,
+    "_id": "39762270-3994-46be-be53-5e38ff2007b8",
+    "_rev": 1757038984702,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377329729,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           madrigalinside.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"madrigalinside.com\") {\n   *, *:before, *:after {\n\t-webkit-box-sizing: border-box; \n\t-moz-box-sizing: border-box; \n\tbox-sizing: border-box;\n\tzoom: reset;\n}\n\nnav > ul {\n\tborder:3px solid #174282!important;\n\tborder-radius:5px;\n\tbox-shadow:5px 5px 5px 0px rgba(0,0,0,0.5);\n}\n\nnav > ul:last-child {\n\tborder-right:none;\n}\n\n/* top bar navigation buttons */\nnav > ul > li.menu-item {\n\ttransition:all 0.05s;\n\txborder-radius:5px;\n\ttext-align:center!important;\n\n\txborder:3px solid #235b87;\n\txmargin-right:2px;\n\tpadding:0px 5px;\n\tbackground-color:rgba(0,0,0,0.2);\n\txbox-shadow:3px 3px 3px 0px rgba(0,0,0,0.5);\n\tborder-right:3px solid #174282;\n}\n\n\n\n\nnav > ul > li.menu-item.current-menu-item {\n\txborder-bottom:3px solid #174282;\n\txborder-bottom:0px solid grey!important;\n\t\tbackground: rgb(35,91,135);\n\t\tbackground: linear-gradient(0deg, rgba(35,91,135,1) 0%, rgba(93,0,255,0) 100%);\n}\n\nnav > ul > li.menu-item > a.elementor-item {\n\txborder:1px solid grey;\n\txcolor:lime!important;\n\tfont-family:consolas!important;\n\t\ttext-transform: capitalize!important;\n\twidth:100%;\n\theight:100%;\n\t\n\t\n}\n\nnav > ul > li.menu-item.current-menu-item > a.elementor-item-active {\n\tcolor:auto!important;\n}\n\nnav > ul > li.menu-item:hover {\n\txcolor:rgba(0,0,0,0)!important;\n\tbackground-color:rgba(0,0,0,0.8);\n\txborder:3px solid green;\n\txtext-decoration: underline;\n\t\t\tbackground: rgb(35,91,135);\n\t\tbackground: linear-gradient(0deg, rgba(35,91,135,1) 0%, rgba(93,0,255,0) 100%);\n}\n}\n\n",
+    "usercssData": {
+      "name": "madrigalinside.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "madrigalinside.com",
+    "updateDate": 1752377347513,
+    "_id": "7dbecddc-9286-4b97-992d-ee012ee2b05b",
+    "_rev": 1752377347513,
+    "id": 6
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377402234,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           runescape.wiki\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"runescape.wiki\") {\n   #music-playlist {\n    width: 90%;\n    max-width: 850px!important;\n}\n\n#music-playlist > #music-player {\n\twidth:95%;\n}\n\n\n/*a.oo-ui-buttonElement-button*/\n#mw-content-text > div.mw-parser-output > table.infobox.no-parenthesis-style.infobox-item > tbody > tr:nth-child(33) > td > div > a > span {\n\tbackground-color:#006600!important;\n\tborder-color:#003300!important;\n\tborder-style:outset!important;\n\tborder-width:10px!important;\n\tborder-radius:2px!important;\n\tbox-shadow: 5px 5px 0px 0px rgba(0,0,0,0.4)!important;\n\tmargin-top:10px!important;\n\tmargin-bottom:20px!important;\n\tpadding:10px!important;\n\twidth:100%!important;\n\t\n}\n\nspan.realtime-ge-openbtn > a > span {\n\ttext-shadow:1px 1px 0px black;\n\tcolor: #8d8b8b;\n\tfont-size:1.5em;\n\t\n}\n\n#mw-content-text > div.mw-parser-output > table.infobox.no-parenthesis-style.infobox-item > tbody > tr:nth-child(33) > td > div > a > span:hover {\n\tbackground-color:#004d00!important;\n\tborder-color:#001a00!important;\n}\n\n#mw-content-text > div.mw-parser-output > table.infobox.no-parenthesis-style.infobox-item > tbody > tr:nth-child(33) > td > div > a > span:active {\n\tbackground-color:green!important;\n}\n}",
+    "usercssData": {
+      "name": "runescape.wiki",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "runescape.wiki",
+    "updateDate": 1752377402234,
+    "_id": "253e574c-131a-40d8-9ef4-c6353a47d3f5",
+    "_rev": 1752377402234,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377443424,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           rockpapershotgun.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"rockpapershotgun.com\") {\n    article.article {\n\t  xcolor:#e2e2e2!important;\n}\n\n*, *:before, *:after {\n\t-webkit-box-sizing: border-box!important; \n\t-moz-box-sizing: border-box!important; \n\tbox-sizing: border-box!important;\n\tzoom: reset!important;\n}\n\n.summary {\n\txtransition: all 0.1s;\n\txborder-radius:50px;\n\txoverflow:hidden;\n\txbackground-color:rgba(0,0,0,0.5)!important;\n\t\n}\n\n.summary:hover {\n\t  xbackground-color:rgba(0,0,0,0.2)!important;\n\t\tbox-shadow:inset 20px 20px 20px 20px rgba(0,0,0,0.1)!important;\n\t\toutline:2px solid green;\n}\n}\n\n",
+    "usercssData": {
+      "name": "rockpapershotgun.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "rockpapershotgun.com",
+    "updateDate": 1752420199735,
+    "_id": "5ef0851c-33d7-4795-b0a4-924abbb299f2",
+    "_rev": 1752420199736,
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377853798,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           www.youtube.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"www.youtube.com\") {\n       #masthead-container, #container.ytd-masthead  {\n        xpadding: 0px!important;\t\n        xheight: auto!important;\n        xtransform: scale(0.5)!important;\n\n\n    }\n\n\n    /* blokkaa live-lähetyksessä chatin, normaalissa videossa blokkaa sivussa olevan \"related\" yms. video-listan */\n    #secondary {\n        xopacity:0!important;\n        xborder:1px solid red!important;\n    }\n\n    /* make video thumbnail border border-radius 0px again */\n    #thumbnail {\n        border-radius:0px!important;\n    }\n    \n    /* Sidebar links */\n    ytd-guide-entry-renderer > a#endpoint {\n        border-radius: 0px !important;\n        \n    }\n    \n     ytd-guide-entry-renderer > a#endpoint * {\n        xfont-family: Consolas, monospace !important;\n        color: white !important;\n        border-radius: 0px !important;\n    }\n         \n    /*** Custom styles for \"Playlists\" and \"Liked videos\" sidebar items ***/\n    /* Playlists */\n    ytd-guide-entry-renderer > a[href=\"/feed/playlists\"].yt-simple-endpoint{\n        background-color: #721717 !important;\n    }\n    ytd-guide-entry-renderer > a[href=\"/feed/playlists\"]:hover {\n        background-color: #891d1d !important;\n        outline: 1px solid red !important;\n    }\n     /* Liked videos*/\n    ytd-guide-entry-renderer > a[href=\"/playlist?list=LL\"].yt-simple-endpoint {\n        xbackground-color: #175a1b !important;\n        background-color: #721717 !important;\n    }\n    ytd-guide-entry-renderer > a[href=\"/playlist?list=LL\"]:hover {\n        xbackground-color: #1a651e !important;\n        xoutline: 1px solid lime !important;\n         background-color: #891d1d !important;\n        outline: 1px solid red !important;\n    }\n    \n\n\n    /* Remove sections from the sidebar, eg. \"Subscriptions\" */\n    #sections > ytd-guide-section-renderer:nth-child(2),\n    #sections > ytd-guide-section-renderer:nth-child(4),\n    #sections > ytd-guide-section-renderer:nth-child(5),\n    #sections > ytd-guide-section-renderer:nth-child(6),\n    #footer\n    {\n        display: none !important;\n    }\n\n\n\n}",
+    "usercssData": {
+      "name": "www.youtube.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "www.youtube.com",
+    "updateDate": 1779972144301,
+    "_id": "1863a4b6-c39f-4379-9cc4-fc59e9e6c225",
+    "_rev": 1752382838759,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1752377940522,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           dragonrip.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"dragonrip.com\") {\n   *, :after, :before {\n        -webkit-box-sizing: border-box;\n        -moz-box-sizing: border-box;\n        box-sizing: border-box;\n    }\n\n    /* Change game background here to try prevent flickering on page load */\n    body, html {\n        background:#262626 url('https://i.imgur.com/gnerbEH.jpeg')!important;\n        background-image: url('https://i.imgur.com/gnerbEH.jpeg')!important;\n        background-size:auto !important;\n        background-repeat:repeat !important;\n        margin: auto 0px auto 0px !important;\n        xscrollbar-color: rgb(62, 62, 62) grey;\n\t    xscrollbar-width: thin;\n    }\n\n    /* Remove logo here to try prevent flickering on page load */\n    body > div.logo > img {\n        display:none;\n    }\t\n    \n    /* Remove navbar to prevent load flickering */\n    .navbar {\n        display: none !important;\n    }\n    \n    .player {\n        height: 58px;\n    }\n    \n    /* Set here to revent load flickering */\n    div.logo {\n        height: 68px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    /* Make main bars darker to avoid flickering on page load */\n    .player > .bar,\n    .player > .bar > .healthbar,\n    .player > .bar > .healthbar > .healthbar2{\n        background-color: black!important;\n    }\n\n    \n    /* Change empty vial graphic to more visible icon */\n    div[style=\"background-image:url(/game/images/itemaa/weavialwat.png);\"] {\n        background-image:url(https://i.imgur.com/mgV2Iyb.png)!important;\n        background-repeat:no-repeat;\n        background-position:center;\n        background-size:contain;\n    }\n\n    \n    /* Pet explore and pet training elems on right-side bar */\n    .burbul> *:nth-child(7) > tbody > tr > td > br ,\n    .burbul> *:nth-child(8)  > tbody > tr > td > br\n    {\n        border:1px solid lime;\n        height:0px!important;\n        padding:0px!important;\n    }\n\n    \n    /* ruins menu icon lvl texts */\n    div.resurx > span.amoub > b {\n        color:white;\n        padding:5px;\n        text-shadow: \n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black,\n            0px 0px 5px black\n        ;\n    }\n    \n    /* chat container */\n    .chatting {\n        xwidth:98vw !important;\n    }\n    \n    /* Margins for playarea contents, margin is removed in dragonrip-toolbar script. */\n    /* To prevent resize \"flickering\" when scripts load and insert elements */\n    .veik {\n        margin-top: 130px;\n    }\n    .into {\n        margin-top: 120px;\n    }\n    \n    /* pagination buttons, eg. pages in market */\n    /* Note: effects other similar elements inadvertently */\n    .juod {\n        padding: 0px !important; \n        min-height: 30px !important;\n        min-width: 30px !important;\n        display: flex !important;\n        align-items: center !important;\n        justify-content: center !important;\n    }\n    .juod > a, .juod > span {\n        width: 100% !important;\n        height: 100% !important;\n        display: inline-block !important;\n    }\n    .juod > a:hover, .xjuod > span:hover  {\n        background-color: rgba(255, 255, 255, 0.1) !important;\n    }\n    /* change Slayer bounty list back to vertical list */\n    /* Note: hacky selector with exact style the game puts on the list */\n     .juod[style=\"width:96%;color:#3e719d;opacity:0.8;padding:5px;\"] {\n          flex-direction: column !important;\n    }\n    \n    \n\n\n}",
+    "usercssData": {
+      "name": "dragonrip.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "dragonrip.com",
+    "updateDate": 1778797566678,
+    "_id": "25bb86b0-8cfe-4844-aca4-bacbc487cf4d",
+    "_rev": 1775666774475,
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "installDate": 1760936585147,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           dynamix.top/trance\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://dynamix.top/trance\") {\n    /* Insert code here... */\n    \n    .GXwK3152yZ21 {\n        background-color : none !important;\n        display: none !important;\n    }\n}",
+    "usercssData": {
+      "name": "dynamix.top/trance",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "dynamix.top/trance",
+    "updateDate": 1760936617818,
+    "_id": "910cd688-0e22-474e-b0fa-935ea283005d",
+    "_rev": 1760936617819,
+    "id": 12
+  },
+  {
+    "enabled": true,
+    "installDate": 1777523679599,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           anarchy-online.com\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"anarchy-online.com\") {\n    \n    body {\n        background-image: none;\n        background-color: #202020;\n        width: 100%;\n    }\n    \n    #outerWrapper {\n        background: none;\n        width: 100%;\n    }\n    \n    #wrapper {\n        background: none;\n        width: 100%;\n    }\n    \n    #header {\n        background: #202020 url(https://i.imgur.com/47063Je.jpeg) center center no-repeat;\n        background-size: 100%;\n        width: 100%;\n        margin: 0px;\n    }\n   \n    \n    #container {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        margin: 0px auto 0px auto !important;\n        xmax-width: 800px;\n        width: 100%;\n        float: left !important;\n       \n    }\n    \n    #left {\n        display: flex;\n        align-content: center;\n        justify-content: center;\n        width: 100%;\n        height: 130px;\n        margin-left: 5px; \n    }\n    \n    #left > ul.gnav {\n        width: 100%;   \n        height: 100% !important;\n        xheight: 300px;\n    }\n    \n    #left > ul.gnav > li.ulContainer {\n        height: 100%;\n    }\n    \n    #center {\n        margin-left: 10px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        background: #646A73;\n        background: linear-gradient(90deg,rgba(100, 106, 115, 1) 0%, rgba(55, 55, 59, 0) 100%);\n        \n        box-shadow: inset -5px 0px 5px 0px rgba(0,0,0, 0.2), \n\t\t\t\tinset 5px 0px 5px 0px rgba(0,0,0, 0.5),\n\t\t\t\t0px 0px 5px 0px rgba(0,0,0, 0.5);\n\t\t\t\t/*inset-10px 0px 10px 0px rgba(0,0,0,0.8), */ \n\t    border-style:solid;\n        border-left-width: 10px;\n        border-right-width: 10px;\n        border-top-width: 10px;\n        border-bottom-width: 10px;\n        border-image: linear-gradient(\n            to right, \n            #8b8787, \n            #a29d9d,\n            #7a7575,\n            #3a3838\n        ) 100 100%;\n        margin-bottom: 100px;\n    }\n    \n    #center > #centerTop {\n        display: none;\n    }\n    \n    #right {\n        display: none;\n        width: 0px !important;\n    }\n    \n    #footer > .btmBorder {\n        display: none;\n    }\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "usercssData": {
+      "name": "anarchy-online.com",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "anarchy-online.com",
+    "updateDate": 1777529264426,
+    "_id": "e7024a26-c378-45e9-abe2-69ef96da6454",
+    "_rev": 1777529264426,
+    "id": 13
+  },
+  {
+    "enabled": true,
+    "installDate": 1777974338796,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           www.itemfix.com/v\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://www.itemfix.com\") {\n    \n    .container {\n        max-width: 97%;\n    }\n    \n    .header-outer.fixed-top {\n        padding: 0px;\n    }\n    \n    form[action=\"list\"] {\n        height: 40px !important;\n        padding: 5px 0px 5px 0px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n    \n    form[action=\"list\"] > input {\n        height: 100%;\n        padding: 5px;\n        border-radius: 5px;\n    }\n    \n    #content_section.content-main-outer-panel {\n        padding: 50px 0px 50px 0px !important;\n        \n    }\n    \n    .col-sm-12.col-md-9.pad-none.content-left-outer.item-content-left-outer {\n        width: 100%;\n        flex: 0 0 100%;\n        max-width: 100%;\n        padding: 0px;\n    }\n    \n    \n    .col-sm-12.col-md-9.pad-none.content-left-outer {\n        width: 100%;\n         padding: 0px;\n    }\n    \n    .itemfix-grid-main-inner {\n        padding-top: 0px;\n    }\n    \n    .rate_thing.uprate {\n        border-radius: 5px;\n    }\n    \n    h1 {\n        padding: 0px;\n        width: 90%;\n    }\n    \n    \n    .itemfix-tags-con {\n        display: none;\n        align-items: center;\n        justify-content: start;\n        margin-bottom: 0px;\n        width: auto;\n        height: 30px;\n    }\n    \n    \n    .itemfix-tags-con  > span > a  {\n        height: 20px;   \n        padding: 0px 5px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        \n    }\n    \n    .itemfix-grids-views-con {\n        display: inline-flex;\n    }\n\n    \n    .item-video-con {\n        padding-top: 0px;\n    }\n    \n\n    /* Remove the right-side area next to the video */\n    .col-sm-12.col-md-3.pad-none.content-right-outer {\n        display: none;\n    }\n    \n    /* make video element bigger */\n    \n    .col-sm-12.pad-none.item-video-con {\n        xborder: 1px solid white;\n        height: calc(100vh - 200px) !important;\n        min-width: 500px;\n        width: 80% !important;\n        position:relative;\n    }\n    \n    div[id^=\"player\"] {\n        width: 100%;\n        height: 100%;\n     \n    }\n    \n    div[id^=\"player\"] > div.videocontent {\n        xborder: 1px solid lime;\n        xwidth: 100%;\n        height: 100%;\n    }\n    \n    *[id^=\"player\"] {\n        xborder: 2px solid red;\n        xmax-height: 100vh !important;\n        height: 100%;\n        xwidth: auto !important;\n        xpadding: 0px;\n    }\n    div[id^=\"player\"] > div {\n        xwidth: 100%;\n        height: 100%;\n    }\n    div[id^=\"player\"] > video[id^=\"player\"] {\n        xborder: 5px solid grey;\n        xwidth: 100% !important;\n        height: 100% !important;\n    }\n    \n}",
+    "usercssData": {
+      "name": "www.itemfix.com/v",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "www.itemfix.com/v",
+    "updateDate": 1778005173570,
+    "_id": "2c05b36d-6dc0-4b29-a3e1-e199f88875b7",
+    "_rev": 1778005173570,
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "installDate": 1780636558729,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "name": "catbox.moe/user/login",
+    "sourceCode": "/* ==UserStyle==\n@name           catbox.moe/user/login\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://catbox.moe/*\") {\n    body > div.image {\n        display: none !important;\n    }\n}",
+    "usercssData": {
+      "name": "catbox.moe/user/login",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "updateDate": 1780636558729,
+    "_id": "0909a77b-faea-4182-a438-d191aaab04de",
+    "_rev": 1780636558729,
+    "id": 15
+  }
+]
